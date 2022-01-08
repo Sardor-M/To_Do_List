@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-  color: white;
+  background-image: linear-gradient(120deg, #f8f07c 0%, #65fdfd 100%);
+  color: burlywood;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
@@ -67,7 +67,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: #58ee3a;
   color: white;
   border: none;
   padding: 1rem;
@@ -110,12 +110,12 @@ select {
 
 /* Custom Select */
 .select {
-  margin: 1rem;
+  margin: 2rem;
   position: relative;
   overflow: hidden;
 }
 select {
-  color: #ff6f47;
+  color: #14140e;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
@@ -127,7 +127,5 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #ff6f47;
-  cursor: pointer;
-  pointer-events: none;
+  background: #6fdb17;
 }
